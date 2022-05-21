@@ -1,0 +1,92 @@
+body{
+    margin: 0%;
+    font-family: Akshar;
+}
+h1{
+    font-size: 35px;
+    
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.top-banner{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#c110d5,rgb(128, 20, 158));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.name-color{
+    color: rgb(215, 11, 215);
+}
+.half-width img{
+    width: 70%;
+}
+.bio{
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.container{
+    display: flex;
+}
+.container .images{
+    padding: 50px;
+}
+.container .images img{
+    width: 100%;
+    height: 100%;
+}
+.down{
+    margin-top: -20rem;
+    background-image: url("image/footer-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.down #email{
+    text-align: center;
+    background-color: #c90f8e;
+    padding: 3rem;
+    width: 60%;
+    border-radius:10px;
+    padding:25px;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 100%;
+}
